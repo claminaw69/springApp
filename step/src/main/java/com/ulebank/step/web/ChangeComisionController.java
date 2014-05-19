@@ -24,7 +24,7 @@ public class ChangeComisionController {
 
     /** Logger for this class and subclasses */
     protected final Log logger = LogFactory.getLog(getClass());
-
+//hola
     @Autowired
     private AccountManager accountManager;
 
