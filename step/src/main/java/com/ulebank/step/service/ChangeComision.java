@@ -9,6 +9,8 @@ public class ChangeComision {
     protected final Log logger = LogFactory.getLog(getClass());
     
     private String id;
+    private double comision;
+    
     public String getId() {
 		return id;
 	}
@@ -17,7 +19,7 @@ public class ChangeComision {
 		this.id = id;
 	}
 
-	private double comision;
+	
 
     public void setComision(double i) {
         this.comision = i;

@@ -29,13 +29,6 @@ public class SimpleAccountManager implements AccountManager{
 				}
 			}
 		}
-//		if(accounts != null){
-//			for(Account account : accounts){
-//				account.setComision(comision);
-//			}
-//		}
-		
-		
 	}
 
 }

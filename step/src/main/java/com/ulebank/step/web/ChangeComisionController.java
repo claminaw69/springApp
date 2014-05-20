@@ -24,16 +24,16 @@ public class ChangeComisionController {
 
     /** Logger for this class and subclasses */
     protected final Log logger = LogFactory.getLog(getClass());
-//hola
+
     @Autowired
     private AccountManager accountManager;
 
     @RequestMapping(method = RequestMethod.POST)
     public String onSubmit(ChangeComision changeComision, BindingResult result)
     {
-        if (result.hasErrors()) {
-            return "changeComision";
-        }
+//        if (result.hasErrors()) {
+//            return "changeComision";
+//        }
 		
         double change = changeComision.getComision();
         logger.info("change comision to: " + change + "%.");
