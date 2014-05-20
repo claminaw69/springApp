@@ -4,14 +4,13 @@ import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
+
 
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.web.servlet.ModelAndView;
+
 
 import com.ulebank.step.domain.Account;
-import com.ulebank.step.service.AccountManager;
 import com.ulebank.step.service.ChangeComision;
 import com.ulebank.step.service.SimpleAccountManager;
 
@@ -45,7 +44,6 @@ public class ChangeComisionControllerTest {
 		changeComision.setComision(15.3);
 		String test = controller.onSubmit(changeComision, null);
 		assertEquals("redirect:/accounts.htm", test);
-		double comision = 15.3;
 		assertTrue(15.3 == simpleAccountManager.getAccounts().get(0).getComision());	
 	}
 

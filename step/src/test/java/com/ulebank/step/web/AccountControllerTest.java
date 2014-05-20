@@ -3,13 +3,11 @@ package com.ulebank.step.web;
 
 import static org.junit.Assert.*;
 
-import java.util.List;
 import java.util.Map;
 
 import org.junit.Test;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ulebank.step.domain.Account;
 import com.ulebank.step.service.SimpleAccountManager;
 
 
