@@ -33,6 +33,8 @@ package com.ulebank.step.web;
 
 	    	String now = (new Date()).toString();
 	        logger.info("Returning hello view with " + now);
+	        
+	        System.out.println("@@@@@@@@@@@@cuentas: "+accountManager.getAccounts().size()+"@@@@@@@@@@@@@@@@");
 
 	        Map<String, Object> myModel = new HashMap<String, Object>();
 	        myModel.put("accounts", this.accountManager.getAccounts());
