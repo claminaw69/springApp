@@ -29,7 +29,6 @@ public class SimpleAccountManagerTest {
     private static String account3 = "987456321";
     private static Double comision3 = new Double(2.45);
     
-    private static int POSITIVE_PRICE_INCREASE = 10;
     
     @Before
     public void setUp() throws Exception {
